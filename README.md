@@ -27,7 +27,7 @@ Model Image
  
  Flow Chart
  
- ![](Images/CLAF.png)
+ ![](Images/CLAF.PNG)
 
 Carry look-ahead adder reduces this propagation delay. It does so by transforming the ripple carry design is such a way that its carry logic gets reduced to two level logic. The circuitry for carry look-ahead adder is more complex as compare to ripple carry adder.  
 
