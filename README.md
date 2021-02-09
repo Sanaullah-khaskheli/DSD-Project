@@ -19,7 +19,11 @@ Flow Chart
 Carry Look-Ahead Adder:
 In ripple carry adder, we have observed that the two inputs to be added are available for each adder but the adder block waits until its previous adder block ripples the carry to it. It is the propagation time for each adder to ripple carry into the next stage. For example, if each full adder stage has a propagation delay of 25n seconds, then last block of adder will reach its final correct value after 100n (25 × 4) seconds and this condition gets worsen as long as we try add more number of adders in the circuit. This was the reason behind the motivation of Carry look-ahead adder.
 
+Model Image
+
  ![](Images/CLA0.png)
+ 
+ Flow Chart
 
 Carry look-ahead adder reduces this propagation delay. It does so by transforming the ripple carry design is such a way that its carry logic gets reduced to two level logic. The circuitry for carry look-ahead adder is more complex as compare to ripple carry adder.  
 
@@ -27,14 +31,19 @@ Carry look-ahead adder reduces this propagation delay. It does so by transformin
 
 Consider the full adder circuit shown above with corresponding truth table. We define two variables as ‘carry generate’  Gi and
 ‘carry propagate’  Pi then,
+
  ![](Images/CLA1.png)
+ 
 The sum output and carry output can be expressed in terms of carry generate and carry propagate as, 
+
   ![](Images/CLA2.png)
 		
 The carry output Boolean function of each stage in a 4 stage carry look-ahead adder can be expressed as,
+
  ![](Images/CLA3.png)
 
 The circuit of Carry look0ahead adder with internal logic is as follows, 
+
  ![](Images/CLA4.png)
 
 We can make time complexity analysis of carry look-ahead adder in two parts as follows,
@@ -51,6 +60,6 @@ The Carry Look-ahead adder circuit gets complicated as the number of variables i
 The circuit is costlier as it involves more number of hardware.
 
 
-Observations:
+ 
 
  
