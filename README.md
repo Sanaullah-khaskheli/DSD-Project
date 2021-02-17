@@ -38,7 +38,7 @@ Model Image
  
  
  <p align="center">
-  <img src="https://github.com/Sanaullah-khaskheli/DSD-Project/blob/Project-Branch/Images/CLAF.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/Sanaullah-khaskheli/DSD-Project/blob/Project-Branch/Images/CLAF.PNG?raw=true" alt="Sublime's custom image"/>
 </p>
 
 Carry look-ahead adder reduces this propagation delay. It does so by transforming the ripple carry design is such a way that its carry logic gets reduced to two level logic. The circuitry for carry look-ahead adder is more complex as compare to ripple carry adder.  
