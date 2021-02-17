@@ -84,6 +84,19 @@ Disadvantages –
 The Carry Look-ahead adder circuit gets complicated as the number of variables increase.
 The circuit is costlier as it involves more number of hardware.
 
+Videos Link:
+Following are the links for video demonstration of my project. The main purpose of these videos is to decribe the odds and evens during a hardware implementation because for FPGA we have to design our logic in a way that FPGA can understand it easily.
+
+1. https://youtu.be/ULFfapw8Pds
+2. https://youtu.be/A-keED31Nmo
+3. https://youtu.be/Qlu4yfU5sJI
+
+
+ 
+
+
+
+
 
  
 
